@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    /* background: rgb(39, 37, 37); */
+    /* text-align: right; */
+}
+
+
+/* Project - A modern calculator App */
+
+.calculator-section {
+  background-image: url(images/Voras-Mountains-sunset-over-vergoritida-lake-view-mountain-1285181797.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#calculator{
+  border: 1px solid black;
+}
+
+#display{
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 10px;
+  background-color: hsl(0, 0%, 20%);
+  color: #fff;
+  border: none;
+  outline: none;
+  height: 50px;
+  text-align: left;
+}
+
+#keys{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 10px;
+  background-color: hsl(0, 0%, 10%);
+}
+
+button{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  background-color: hsl(0, 0%, 20%);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: hsl(0, 0%, 30%);
+}
+
+button:active{
+  background-color: hsl(0, 0%, 40%);
+}
+
+.operation-Btn {
+  background-color: hsl(39, 100%, 40%);
+}
+
+.operation-Btn:hover {
+  background-color: hsl(39, 100%, 50%);
+}
+
+.operation-Btn:active {
+  background-color: hsl(39, 100%, 60%);
+}
